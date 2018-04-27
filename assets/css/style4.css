@@ -1,0 +1,219 @@
+ /** Website template by freewebsitetemplates.com **/
+ body { 
+            margin:0;
+			padding:0;
+			background: url("../images/bg-body.gif");
+			background-repeat:repeat-x;
+	}
+	
+ #page{
+      
+ 
+ }	
+ 
+ #header{
+    width:960px;
+	height:72px;
+	position:relative;
+	margin:0 auto;
+ }
+		
+  #header a#logo{
+     position:relative;
+	 z-index:100;
+  }		
+  
+  #header a#logo img{
+    border:0; 
+  }
+  
+  /**-------------- Navigation style ---------------**/
+  #header ul.navigation{
+      list-style-type:none;
+	  margin:-82px 0 0 300px;
+	  padding:0;
+	  overflow:hidden;
+	  
+  }
+  
+  #header ul.navigation li{
+      float:left;
+	  height:35px;
+	  width:107px;
+  }
+  
+  #header ul.navigation li.active{
+      
+	  background:url("../images/menu.gif");
+	  background-repeat:no-repeat;
+	  background-position: 0 -160px;
+  }
+  
+  #header ul.navigation li a{
+    text-decoration:none;
+	color:#2c1d00;
+	font-family:"Myriad Pro";
+	font-size:14px;
+	font-weight:bold;
+	display:inline-block; 
+	line-height:35px;
+	background:url("../images/menu-separator.gif");
+	background-repeat:no-repeat;
+	background-position:right; 
+	height:35px;
+	padding:0 20px 0 20px;
+	text-align:center;
+	width:67px;
+  }
+  
+  #header ul.navigation li a:hover{
+	color:#ffffff;
+	
+  }
+  /** seacrh **/
+  #body #content  .search{
+     background:url("../images/bg-search-form2.gif");
+	 background-position:center;
+	 background-repeat:no-repeat;
+	 width:540px;
+	 height:75px;
+	 margin:0 auto;
+	 margin-top:80px;
+	 margin-bottom:30px;
+  }
+  
+  #body #content  .search input{
+    background:url("../images/input-search2.gif");
+	 background-position:center;
+	 background-repeat:no-repeat;
+	 width:420px; 
+	 padding: 8px 5px;
+	 border:0;
+	 margin:5px 3px 5px 10px;
+	 font-size:14px;
+	 font-family:"Myriad Pro";
+	 color:#7f7154;
+	 
+  }
+  
+  #body #content .search button{
+     background:url("../images/buttons.gif");
+	 background-position: 0 -270px;
+	 background-repeat:no-repeat;
+	 width:77px; 
+	 height:30px;
+	 border:0;
+	 margin:5px 5px 5px 0;
+	 cursor:pointer;
+  }
+  
+  #body #content  .search label{
+	 font-size:14px;
+	 font-family:"Myriad Pro";
+	 color:#ffffff;
+	} 
+   #body #content .search label input{
+     margin: 0 10px 0 10px;
+	 width:10px;
+	 background:transparent;
+   }
+
+
+/**--------------- Start of footer style ------------------**/
+   #footer{
+     background-color:#310000;
+	 background-image:none;
+   }
+   
+   #footer .section{
+       width:960px;
+	   margin:0 auto;
+	   overflow:hidden;
+	   position:relative;
+   }
+   
+   #footer .section ul{
+      margin:0;
+	  padding:0;
+	  list-style-type:none;
+   }
+   #footer .section ul li{
+     float:left;
+	 width:240px;
+	 height:190px;
+	 
+   }
+   
+   #footer .section ul li img{
+      position:absolute;
+	  top:0;
+   }
+   
+   #footer .section ul li h2{
+      position:relative;
+	  top:60px;
+	  left:0;
+	  z-index:10;
+	  padding: 0 10px 0 15px; 
+	  margin:20px 0 -15px 0;
+	  /*
+	  *margin:30px 0 -20px 0;
+	  */
+	 
+   }
+   
+   #footer .section ul li h2 a{
+       font-family:"Myriad Pro", Arial;
+	   font-size:16px;
+	   color:#bffb05;
+	   text-decoration:none;
+	   font-weight:normal;
+   }
+   
+   #footer .section ul li p{
+      position:relative;
+	  top:60px;
+	  padding: 0 10px 0 15px; 
+	  z-index:10;
+	  font-family:"Myriad Pro";
+	  font-size:14px;
+	  color:#ffffff;
+	  line-height:20px;
+   }
+   
+   #footer .section ul li p a{
+     color:#ffffff;
+   }
+   #footer .section ul li p a:hover{
+     color:#ff6700;
+   }
+   
+   #footer .section ul li p a.more{
+      color:#ff6700;
+   }
+   
+   #footer .section ul li p a.more:hover{
+      color:#ffffff;
+   }
+   
+   #footer #footnote{
+	  background-color:#ffad00;
+   }
+   
+   #footer #footnote .section{
+       width:960px;
+	   height:50px;
+	   text-align:center;
+	   line-height:50px;
+	   font-family:"Myriad Pro";
+	   font-size:13px;
+		
+   }
+   
+   #footer #footnote .section a{
+      text-decoration:none;
+	  color:#000000;
+   }
+   #footer #footnote .section a:hover{
+      color:#ffffff;
+   }
